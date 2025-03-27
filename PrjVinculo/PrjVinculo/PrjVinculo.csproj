@@ -27,6 +27,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="PagListaProfuto.xaml.cs">
+	    <DependentUpon>PagListaProfuto.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="PagListaProfuto.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="ProdutoPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
